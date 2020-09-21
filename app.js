@@ -21,7 +21,7 @@ app.get("/ofertas", function(req, res){
 
 app.get('*', function(req, res){
     if (req.url.endsWith('.css')){
-        let file = path.resolve('public/css' + req.url)
+        let file = path.resolve('public' + req.url)
         return res.sendFile(file)
     }
     
