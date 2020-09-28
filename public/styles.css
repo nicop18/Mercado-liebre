@@ -1,16 +1,66 @@
-#colorr{
-    background-color: #f4e033;
-    height: 200px;
+body{
+
+    padding: 0px;
+    margin: 0px;
+}
+#navegacion{
+    background: gold;
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+
+}
+#navegacion .contenedor:hover  ul{
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    display: block;
+}
+#navegacion ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+#navegacion ul li a{
+    color: black;
+}
+ #navegacion .contenedor{
+    text-align: center;
+}
+#foto{
+    width: 100;
+    height: 100px;
+    display: inline-block;
+    padding-top: 0px;
+}
+.fondo{
+    background-color: white;
+    margin: auto;
+    display: block;
+    align-content: center;
+    margin: 10px 15px 10px 15px;
+    border: 3px solid black;
+}
+#body .ofertas{
+    background-color:  #ebebeb;
+    font-size: 24;
+}
+#body{
+    background-color:  #ebebeb;
 }
 
-.co{
-    background-color: darkgray;
-    height: 40px;
-    font-size: 24;
+.titu #list:hover{
+    color: blue;
+    float: left;
+    border: 0;
 }
 .titulo{
     background-color: #f4e033;
     font-size: 12px;
+    width: 80px;
+}
+.titu{
+    background-color: gold;
 }
 .fas{
     color: green;
@@ -22,13 +72,10 @@
     color: green;
     font-size: 16px;
 }
-#be{
-    color: blue;
+#foot{
+    background:white;
 }
-#bee{
-    color: blue;
-}
-#beee{
+#be .fas{
     color: blue;
 }
 .precio{
