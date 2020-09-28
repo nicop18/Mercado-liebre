@@ -13,12 +13,17 @@ app.get("/", function(req, res){
     res.sendFile(file)
 })
 
-app.get("/ofertas", function(req, res){
-    let file = path.resolve('public/ofertas.html')// resuelve la ruta completa de este archivo
+app.get("/Crea-tu-cuenta", function(req, res){
+    let file = path.resolve('public/registro.html')// resuelve la ruta completa de este archivo
     
     res.sendFile(file)
 })
 
+app.get("/Login", function(req, res){
+    let file = path.resolve('public/ingreso.html')// resuelve la ruta completa de este archivo
+    
+    res.sendFile(file)
+})
 app.get('*', function(req, res){
     if (req.url.endsWith('.css')){
         let file = path.resolve('public' + req.url)
